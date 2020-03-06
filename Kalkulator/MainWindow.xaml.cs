@@ -42,10 +42,10 @@ namespace Kalkulator
             
             string suma = (string)labelScreen.Content;
             
-            double newSuma = 0;
+            double newSuma = 0.0;
             int indexOfOp = 0;
             char op = ' ';
-            int a = 0, b = 0;
+            double a = 0, b = 0;
             if (suma != "")
             {
 
@@ -74,8 +74,8 @@ namespace Kalkulator
 
                 try
                 {
-                    a = Convert.ToInt32(suma.Substring(0, indexOfOp));
-                    b = Convert.ToInt32(suma.Substring(indexOfOp + 1, suma.Length - indexOfOp - 1));
+                    a = Convert.ToDouble(suma.Substring(0, indexOfOp));
+                    b = Convert.ToDouble(suma.Substring(indexOfOp + 1, suma.Length - indexOfOp - 1));
                 }
                 catch (Exception)
                 {
@@ -100,6 +100,7 @@ namespace Kalkulator
                     default:
                         break;
                 }
+                
                 labelScreen.Content = newSuma.ToString();
 
             }
