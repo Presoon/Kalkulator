@@ -26,3 +26,17 @@ E:\Projekty\Projekty_C#\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Re
 E:\Projekty\Projekty_C#\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.cache
 E:\Projekty\Projekty_C#\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
 E:\Projekty\Projekty_C#\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojAssemblyReference.cache
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\MainWindow.g.cs
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\App.g.cs
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator_MarkupCompile.cache
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator_MarkupCompile.lref
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\MainWindow.baml
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.g.resources
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.cache
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+C:\Users\kamil\Desktop\GIT\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb

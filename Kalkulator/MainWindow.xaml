@@ -36,6 +36,7 @@
         <Button x:Name="btn8" Content="8" Margin="10" Grid.Row="1" Grid.Column="1" Click="btnNumber_Click"/>
         <Button x:Name="btn9" Content="9" Margin="10" Grid.Row="1" Grid.Column="2" Click="btnNumber_Click"/>
         <Button x:Name="btnAC" Content="AC" Margin="10" Grid.Row="0" Grid.Column="3" Click="btnAC_Click"/>
-        <Button x:Name="btnSuma" Content="=" Margin="10" Grid.Row="4" Grid.Column="1"  Grid.ColumnSpan="2" Click="btnSuma_Click"/>
+        <Button x:Name="btnSuma" Content="=" Margin="10" Grid.Row="4" Grid.Column="2"  Click="btnSuma_Click"/>
+        <Button x:Name="btnprzecinek" Content="," Margin="10" Grid.Row="4" Grid.Column="1"  Click="btnNumber_Click"/>
     </Grid>
 </Window>
