@@ -32,9 +32,28 @@ namespace Kalkulator
             {
                 labelScreen.Content = "";
             }
+            if ((string)labelScreen.Content == "0")
+            {
+                labelScreen.Content = "";
+            }
+
             var button = sender as Button;
             string num = button.Content.ToString();
+
+            
+            
+            if (num == ",")
+            {
+                string lab = (string)labelScreen.Content;
+                string labLast = lab.Substring(lab.Length-1, 1);
+                if (labLast == "," || labLast == "-" || labLast == "+" || labLast == "*" || labLast == "/")
+                {
+                    return;
+                }
+            }
+            
             labelScreen.Content += num;
+            
         }
 
         private void btnSuma_Click(object sender, RoutedEventArgs e)
@@ -70,7 +89,10 @@ namespace Kalkulator
                     op = '/';
                     indexOfOp = suma.IndexOf('/');
                 }
-                else { }
+                else
+                {
+                    return;
+                }
 
                 try
                 {
@@ -110,6 +132,7 @@ namespace Kalkulator
         {
             var button = sender as Button;
             string op = button.Content.ToString();
+
             labelScreen.Content += op;
         }
 
